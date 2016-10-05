@@ -10,7 +10,9 @@ Let's see where this can go!
 
 # Instructions
 Place the auto_comment.sh in the root of your project you'd like to comment
+
 Run it and follow the instructions
+
 Enjoy!
 
 # Additional Required Mac Instructions
