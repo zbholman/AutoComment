@@ -4,7 +4,7 @@
 # Date: 10/02/2016
 
 ### Description
-printf "\nThis script creates comment headers for your python files\n"
+printf "\nThis script creates comment headers for your files\n"
 printf "Hopefully it saves you some time\n\n"
 
 ### Gather input for variables
