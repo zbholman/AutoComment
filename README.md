@@ -19,4 +19,5 @@ Enjoy!
 1. Make sure you have homebrew installed
 2. in terminal, enter: brew install gnu-sed --with-default-names
 3. then enter: PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
-  This installs gnu-sed and prioritizes it over mac sed in your PATH
+ 
+ This installs gnu-sed and prioritizes it over mac sed in your PATH
