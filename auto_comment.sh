@@ -14,6 +14,8 @@ printf "\nEnter your last name:\n"
 read lastName
 printf "\nWhat project is this for?\n"
 read projectName
+printf "\nWho is your professor?\n"
+read professor
 printf "\nWhat file extension are you looking for? ex: py\n"
 read fileType
 
@@ -29,7 +31,7 @@ case $fileType in
 esac
 
 ### Create comment format
-headerComment="$commentChar Author: $firstName $lastName&\n$commentChar Project: $projectName&\n$commentChar Date: $todaysDate&\n&\n"
+headerComment="$commentChar Author: $firstName $lastName&\n$commentChar Project: $projectName&\n$commentChar Professor: $professor&\n$commentChar Date: $todaysDate&\n&\n"
 
 ### Function for adding comment if it doesn't exist
 function checkHeader() {
